@@ -14,6 +14,7 @@ body
 }
 .clock
 {
+    position: absolute;
     width: 350px;
     height: 350px;
     display: flex;
@@ -26,6 +27,18 @@ body
                 0 20px 20px rgba(0, 0, 0, .2),
                 0 0 0 4px rgba(255, 255, 255, 1);
 }
+.boton
+{
+    position: relative;
+    justify-content: center;
+    top: 250px;
+}
+
+.oscuro{ 
+    background-color: #1f1f1f; 
+    color: #f1eded; 
+}
+
 .clock::before
 {
     content: '';
