@@ -27,18 +27,29 @@ body
                 0 20px 20px rgba(0, 0, 0, .2),
                 0 0 0 4px rgba(255, 255, 255, 1);
 }
-.boton
+.boton 
 {
     position: relative;
     justify-content: center;
     top: 250px;
 }
-
-.oscuro{ 
-    background-color: #1f1f1f; 
-    color: #f1eded; 
+.button
+{
+    background-color: #555555; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
-
+.oscuro
+{ 
+    background-color: #1f1f1f; 
+    color: #f1eded;
+    transition-duration: 0.4s;
+}
 .clock::before
 {
     content: '';
